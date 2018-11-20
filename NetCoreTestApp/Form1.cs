@@ -38,7 +38,9 @@ namespace NetCoreTestApp
 
         void HtmlOnCommandStateChanged(object sender, BrowserCommandStateChangeEvent e)
         {
-            
+
+            var state = e.command;
+
         }
 
         

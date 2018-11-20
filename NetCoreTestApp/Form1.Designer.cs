@@ -51,7 +51,7 @@
 
             this.Controls.Add(this.buttonExit);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Load Bing";
             this.ResumeLayout(false);
 
         }
