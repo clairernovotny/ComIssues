@@ -362,8 +362,6 @@ namespace IEControl
             System.Windows.Forms.Application.AddMessageFilter(this);
 		}
 
-		
-
 		// this can be called multiple times in the lifetime of the control!!!
 		void SelfHandleDestroyed(object s, EventArgs e) 
         {

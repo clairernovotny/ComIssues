@@ -27,20 +27,12 @@ namespace NetCoreTestApp
             Controls.Add(html);
             Controls.Add(buttonExit);
 
-
-
             html.CommandStateChanged += HtmlOnCommandStateChanged;
-
-            HtmlControl.SetInternetFeatureEnabled(
-                InternetFeatureList.FEATURE_TABBED_BROWSING,
-                SetFeatureFlag.SET_FEATURE_ON_PROCESS, true);
         }
 
         void HtmlOnCommandStateChanged(object sender, BrowserCommandStateChangeEvent e)
         {
-
             var state = e.command;
-
         }
 
         
