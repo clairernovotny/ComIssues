@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28306.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComIssues", "ComIssues\ComIssues.csproj", "{BDB963DC-0107-4CF6-9327-0FB6236C90BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEControl", "IEControl\IEControl.csproj", "{260660DF-66E8-4D0E-8A32-900B54DB5F19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreTestApp", "NetCoreTestApp\NetCoreTestApp.csproj", "{3C74F86E-0291-43B5-92DF-2740CDACAFBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BDB963DC-0107-4CF6-9327-0FB6236C90BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BDB963DC-0107-4CF6-9327-0FB6236C90BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BDB963DC-0107-4CF6-9327-0FB6236C90BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BDB963DC-0107-4CF6-9327-0FB6236C90BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260660DF-66E8-4D0E-8A32-900B54DB5F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260660DF-66E8-4D0E-8A32-900B54DB5F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260660DF-66E8-4D0E-8A32-900B54DB5F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260660DF-66E8-4D0E-8A32-900B54DB5F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C74F86E-0291-43B5-92DF-2740CDACAFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C74F86E-0291-43B5-92DF-2740CDACAFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C74F86E-0291-43B5-92DF-2740CDACAFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C74F86E-0291-43B5-92DF-2740CDACAFBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
